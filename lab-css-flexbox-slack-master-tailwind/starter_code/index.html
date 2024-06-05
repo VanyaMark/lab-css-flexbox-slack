@@ -63,26 +63,26 @@
         <!-- tiene un fondo blanco, un color texto fuchsia, esta en mayusuclas, negrita, quiero convertirlo en un elemento de tipo bloque (para que ocupe todo el ancho disponible), es posible que necesiteis la regla w-full, (width 100%), tiene algo de padding y tiene las esquinas redondeadas -->
         <button class="bg-white text-fuchsia-900 uppercase font-bold w-full h-12 mx-2 p-3 rounded">Sign up with email</button>
         <!-- Este es complicadom se puede conseguir con posicionamiento relativo y absoluto-->
-        <button class="flex justify-center items-center bg-blue-400">
-          <img src="./images/logo-google.png" alt="Google logo"  />
+        <button class="flex justify-center items-center bg-blue-400 uppercase font-bold w-full h-12 mx-2 p-3 rounded relative">
+          <img src="./images/logo-google.png" alt="Google logo" class="w-8 p-1 bg-white rounded absolute left-2" />
           <span class="text-white font-bold">Sign up with Google</span>
         </button>
       </div>
     </div>
-    <div>
-      <img src="./images/hero-product-ui.png" alt="Slack app screenshot" />
+    <div class="mt-3">
+      <img  src="./images/hero-product-ui.png" alt="Slack app screenshot" />
     </div>
   </header>
   <main>
-    <section>
-      <p>Trusted by companies all over the world</p>
-      <div>
-        <img src="./images/logo-airbnb.png" alt="Airbnb logo" />
-        <img src="./images/logo-nasa.png" alt="NASA logo" />
-        <img src="./images/logo-uber.png" alt="Uber logo" />
-        <img src="./images/logo-target.png" alt="Target logo" />
-        <img src="./images/logo-nyt.png" alt="New York Times logo" />
-        <img src="./images/logo-spotify.png" alt="Spotify logo" />
+    <section class="bg-orange-100 p-4">
+      <p class="uppercase font-bold py-4 text-center items-center" >Trusted by companies all over the world</p>
+      <div class="flex items-center gap-4 flex-wrap justify-center">
+        <img class="w-32 object-contain" src="./images/logo-airbnb.png" alt="Airbnb logo" />
+        <img class="w-20 object-contain" src="./images/logo-nasa.png" alt="NASA logo" />
+        <img class="w-20 object-contain" src="./images/logo-uber.png" alt="Uber logo" />
+        <img class="w-16 object-contain" src="./images/logo-target.png" alt="Target logo" />
+        <img class="w-48 object-contain" src="./images/logo-nyt.png" alt="New York Times logo" />
+        <img class="w-36 object-contain" src="./images/logo-spotify.png" alt="Spotify logo" />
       </div>
     </section>
     <section>
